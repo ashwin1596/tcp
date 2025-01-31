@@ -1,19 +1,25 @@
-# TCP Tahoe Implementation
+# TCP Tahoe: Advanced Network Communication
 
-A Python implementation of TCP Tahoe version, featuring slow start, congestion avoidance, and fast retransmission mechanisms.
+A robust network communication protocol implementation that enhances data transmission reliability and network efficiency.
 
-## 📁 Project Structure
+## Problem Solved
 
-```
-.
-├── client.py           # Client-side TCP implementation
-├── server.py          # Server-side TCP implementation
-├── utilities.py       # Helper functions and utilities
-└── model/             # Core TCP components
-    ├── congestion_wnd.py  # Congestion window management
-    ├── tcp_header.py      # TCP header structure
-    └── tcp_packet.py      # TCP packet implementation
-```
+Unreliable data transmission and inefficient network congestion management in packet-switched networks.
+
+## 🔍 Key Skills Demonstrated
+
+- Python Programming
+- Socket Programming
+- Concurrent Programming
+- UDP Implementation
+- Object-Oriented Design
+- Network Protocol Implementation
+
+## Technical Highlights
+
+- Efficient packet transmission
+- Robust congestion control
+- Reliable network communication
 
 ## 🔄 TCP Tahoe Features
 
@@ -154,11 +160,15 @@ The implementation has been tested under various conditions:
 - High latency: Stable performance with RTT up to 200ms
 - Packet loss: Graceful degradation up to 5% loss rate
 
-## 🔍 Key Skills Demonstrated
+## 📁 Project Structure
 
-- Python Programming
-- Socket Programming
-- Concurrent Programming
-- UDP Implementation
-- Object-Oriented Design
-- Network Protocol Implementation
+```
+.
+├── client.py           # Client-side TCP implementation
+├── server.py          # Server-side TCP implementation
+├── utilities.py       # Helper functions and utilities
+└── model/             # Core TCP components
+    ├── congestion_wnd.py  # Congestion window management
+    ├── tcp_header.py      # TCP header structure
+    └── tcp_packet.py      # TCP packet implementation
+```
