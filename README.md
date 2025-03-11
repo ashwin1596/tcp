@@ -21,6 +21,16 @@ Unreliable data transmission and inefficient network congestion management in pa
 - Robust congestion control
 - Reliable network communication
 
+## Implementation Highlights
+- Developed a concurrent packet transmission system using multithreading and asyncio, ensuring efficient data flow
+ and responsiveness under varying network conditions.
+- Optimizedtimeouthandling and retransmission logic to minimize packet loss and enhance throughput, demonstrating
+ strong problem-solving skills in network reliability engineering.
+- Structured the protocol implementation using object-oriented principles, enabling modularity, scalability, and main
+tainability for future enhancements.
+- Utilized UDP for underlying packet transport, applying socket programming and low-level networking concepts to
+ create a robust communication layer.
+
 ## 🔄 TCP Tahoe Features
 
 ### 1. Two-Phase Operation
