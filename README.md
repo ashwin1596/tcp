@@ -6,6 +6,10 @@ A robust network communication protocol implementation that enhances data transm
 
 Unreliable data transmission and inefficient network congestion management in packet-switched networks.
 
+## Demo
+
+![Demo](https://github.com/ashwin1596/tcp/blob/main/Demo.png)
+
 ## 🔍 Key Skills Demonstrated
 
 - Python Programming
